@@ -11,55 +11,53 @@
     <script src="../js/bootstrap.min.js" type="text/javascript"></script>
     <script src="../js/login.js" type="text/javascript"></script>
     <style type="text/css">
-        .form-control {
-            width: 80%;
-        }
     </style>
 </head>
 <body>
-<!-- 下拉菜单 默认向下弹出，使用 dropup 向上弹出 -->
-<div class="dropdown">
-    <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">
-        Dropdown <i class="caret"></i>
-    </button>
-    <ul class="dropdown-menu">
-        <li><a href="#">1</a></li>
-        <li class="disabled"><a href="#">2</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="#">3</a></li>
-    </ul>
-</div>
-<!-- 按钮组 从大到小：lg （normal） ms xs-->
-<div class="btn-group btn-group-justify" role="group">
-    <button type="button" class="btn btn-default">Left</button>
-    <button type="button" class="btn btn-default">Middle</button>
-    <button type="button" class="btn btn-default">Right</button>
-
-    <!-- 此处添加下拉框 -->
-    <div class="btn-group dropdown" role="group">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+<div class="container">
+    <!-- 下拉菜单 默认向下弹出，使用 dropup 向上弹出 -->
+    <div class="dropdown">
+        <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">
             Dropdown <i class="caret"></i>
         </button>
         <ul class="dropdown-menu">
-            <li><a href="#">&1</a></li>
-            <li><a href="#">&2</a></li>
-            <li><a href="#">&3</a></li>
+            <li><a href="#">1</a></li>
+            <li class="disabled"><a href="#">2</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">3</a></li>
         </ul>
     </div>
-</div>
+    <!-- 按钮组 从大到小：lg （normal） ms xs-->
+    <div class="btn-group btn-group-justify" role="group">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
 
-<!-- 竖向排列按钮 -->
-<div class="btn-group-vertical" role="group">
-    <button type="button" class="btn btn-default">1</button>
-    <button type="button" class="btn btn-default">2</button>
-    <button type="button" class="btn btn-default">3</button>
-    <button type="button" class="btn btn-default">4</button>
-    <button type="button" class="btn btn-default">5</button>
-    <button type="button" class="btn btn-default">6</button>
-    <button type="button" class="btn btn-default">8</button>
-    <button type="button" class="btn btn-default">9</button>
-    <button type="button" class="btn btn-default">10</button>
-    <button type="button" class="btn btn-default">11</button>
+        <!-- 此处添加下拉框 -->
+        <div class="btn-group dropdown" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Dropdown <i class="caret"></i>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">&1</a></li>
+                <li><a href="#">&2</a></li>
+                <li><a href="#">&3</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 竖向排列按钮 -->
+    <div class="btn-group-vertical" role="group">
+        <button type="button" class="btn btn-default">1</button>
+        <button type="button" class="btn btn-default">2</button>
+        <button type="button" class="btn btn-default">3</button>
+        <button type="button" class="btn btn-default">4</button>
+        <button type="button" class="btn btn-default">5</button>
+        <button type="button" class="btn btn-default">6</button>
+        <button type="button" class="btn btn-default">8</button>
+        <button type="button" class="btn btn-default">9</button>
+        <button type="button" class="btn btn-default">10</button>
+        <button type="button" class="btn btn-default">11</button>
 		<span class="dropdown">
 			<button type="button" class="btn btn-default dropdown-toggle dropdown" data-toggle="dropdown"
                     id="dropdownmenu2">
@@ -71,25 +69,24 @@
                 <li>&3</li>
             </ul>
 		</span>
-</div>
-<!-- 按钮跟下拉框分割 -->
-<div class="btn-group">
-    <button type="button" class="btn btn-danger">Action</button>
-    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
-        <span class="caret"></span>
-        <span class="sr-only">Toggle Dropdown</span>
-    </button>
-    <ul class="dropdown-menu">
-        <li><a href="#">Action</a></li>
-        <li><a href="#">Another action</a></li>
-        <li><a href="#">Something else here</a></li>
-        <li role="separator" class="divider"></li>
-        <li><a href="#">Separated link</a></li>
-    </ul>
-</div>
+    </div>
+    <!-- 按钮跟下拉框分割 -->
+    <div class="btn-group">
+        <button type="button" class="btn btn-danger">Action</button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+        </ul>
+    </div>
 
-<!-- 输入框组  登陆 -->
-<div class="container">
+    <!-- 输入框组  登陆 -->
     <div class="input-group">
         <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-user"></i></span>
         <input type="text" class="form-control" id="username" placeholder="请输入用户名" aria-describedby="basic-addon1">
@@ -100,7 +97,7 @@
 
     <div class="input-group">
         <span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-lock"></i></span>
-        <input type="text" class="form-control" id="password" placeholder="请输入密码" aria-describedby="basic-addon2">
+        <input type="password" class="form-control" id="password" placeholder="请输入密码" aria-describedby="basic-addon2">
         <span class="input-group-addon" style="background-color: #ccc;visibility: hidden;" id="tipspass"><i
                 id="glyphiconpass"></i></span>
     </div>
@@ -109,6 +106,115 @@
     <div>
         <button type="submit" class="btn btn-info">登陆</button>
     </div>
+
+    <!--搜索框制作-->
+    <div class="input-group">
+        <input class="form-control" type="text" placeholder="Searching for ...">
+       <span class="input-group-btn">
+           <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+       </span>
+    </div>
+
+    <!--导航条-->
+    <div class="nav navbar-default navbar-fixed-top nav-justified navbar-static-top" id="navbar_tabs">
+        <ul class="nav nav-tabs">
+            <li class="active" role="presentation"><a href="#">Home</a>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Message</a></li>
+        </ul>
+    </div>
+
+    <div class="nav navbar-inverse" id="navbar">
+        <ul class="nav nav-pills">
+            <li class="active" role="presentation"><a href="#">Home</a>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Message</a></li>
+        </ul>
+    </div>
+
+    <div class="nav navbar" id="navbar_pills">
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active" role="presentation"><a href="#">Home</a>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Message</a></li>
+        </ul>
+    </div>
+
+    <!--路径导航-->
+    <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Library</a></li>
+        <li class="active">Data</li>
+    </ol>
+    <!--分页制作-->
+    <nav>
+        <ul class="pagination">
+            <li>
+                <a href="#"><span>&laquo;</span></a>
+            </li>
+            <li>
+                <a href="#">1</a>
+            </li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">4</a>
+            </li>
+            <li>
+                <a href="#"><span>&raquo;</span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <a href="#">Inbox<span class="badge">42</span></a>
+    <button class="btn btn-info" type="button">Messages<span class="badge">4</span></button>
+
+    <div class="alert alert-info" role="alert">What is the finally?</div>
+    <div class="alert alert-info alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <strong>Warning!</strong> Better check yourself, you're not looking too good.
+    </div>
+
+    <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <strong>Warning! Better check yourself, you're not
+            <a href="#" class="alert-link">looking too good.</a>
+        </strong>
+    </div>
+
+    <!--进度条-->
+    <div class="progress">
+        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+             aria-valuemin="0" aria-valuemax="100" id="progress" style="min-width: 2em;"><b>0%</b>
+            <span class="sr-only">40% Complete(info)</span>
+        </div>
+    </div>
+    <button class="btn btn-info" id="Start">开始</button>
+
+    <div class="progress">
+        <div role="progressbar" aria-valuemin="0" aria-valuemax="100" id="progress_time" style="min-width: 2em;">
+            <b>0%</b>
+            <span class="sr-only">40% Complete(info)</span>
+        </div>
+    </div>
+    <button class="btn btn-info" id="Start_Time">开始</button>
+    <button class="btn btn-info" id="test">测试</button>
+
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 </div>
 </body>
 </html>
